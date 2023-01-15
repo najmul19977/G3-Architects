@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-------------------- 
+head section style start
+ ---------------------*/
+.head-section{
+    background-color: rgba(255, 144, 14, 0.1);
+    width: 100%;
+}
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    padding-top: 30px;
+}
+.nav-section ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+
+}
+.head-description{
+    text-align: center;
+    margin-top: 115px;
+}
+.head-title{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 20px;
+
+}
+.heap-p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+
+}
+.head-btn{
+    background: #FF900E;
+    padding: 20px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    color:#FFFFFF;
+    margin-bottom: 30px;
+
+}
+.head-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: 600px;
+    
+   
+}
+/* -------------------
+head section style end 
+----------------------*/
+
+/* ----------------------
+start main section part-1 
+-------------------------*/
+.main-section{
+    width: 100%;
+    
+}
+.sub-main-section{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    
+}
+
+.team-img-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+.single-img-section{
+    width: 342px;
+    height: 342px;
+}
+.main-section-description{
+    margin-left: 50px;
+    margin-top: 280px;
+    
+}
+.main-title{
+    margin-bottom: 20px;
+}
+.main-p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 20px;
+}
+.title1{
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.title2{
+    font-weight: 500;
+    font-size: 45px;
+}
+.title3{
+    font-weight: 500;
+    font-size: 45px;
+    color: #FF900E;
+
+}
+/*------------------------ 
+end main section part-1 
+--------------------------*/
+
+/*------------------------------- 
+sratr main section part-2 style 
+---------------------------------*/
+.main-section-part-2{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    margin-top: 70px;
+}
+.main-description-part-2{
+    display: flex;
+    
+
+}
+.main-ditelse-part-2{
+    width: 50%;
+    margin: 20px 10px;
+}
+.main-title-part-2{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 10px;
+    
+    border-left: 5px solid #FF900E;
+    padding-left: 10px;
+    
+   
+}
+.main-p-part-2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272; 
+    margin-bottom: 20px;
+}
+.main-sub-section-part-2{
+    margin: 10px 20px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+
+}
+.sub-title-part-2{
+    font-weight: 600;
+    font-size: 20px;
+   
+   
+   
+}
+.main-sub-p-part-2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.main-img-part2{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    object-position: right;
+    
+    
+}
+.box{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+    padding: 20px 10px;
+    margin-left: 50%;
+    position: relative;
+    top: -100px;
+    background-color: #FF900E;
+    color: white;
+    
+    
+  
+}
+.section-part{
+    margin-left: 50px;
+}
+.section-part h1{
+    font-weight: 700;
+    font-size: 45px;
+
+
+}
+.section-part p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    
+}
+.all-box{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+.single-box{
+    border: 1px solid black;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    padding: 30px;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out,transform 0.5s ease-in-out;
+    background-color: #FF900E;
+    
+    
+}
+.single-box:hover{
+     transform: rotate(360deg); 
+     background-color: antiquewhite;
+     
+
+}
+/*------------------------------
+ end main section part-2 style
+ -------------------------------*/
+ /*--------------------------- 
+ start sponsor section style
+ ----------------------------- */
+.spons-description{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.spons-title{
+    margin-bottom: 20px;
+}
+.spons-p{
+    color: #727272;
+}
+.sponspors-img{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px;
+    
+    
+
+}
+/*------------------------- 
+end sponsor section style 
+------------------------------*/
+/*------------------------------ 
+start contact form section style 
+---------------------------------*/
+
+.contact{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    margin: 100px 350px;
+    height: 300px;
+    background-color: #FF900E;
+    color: white;
+}
+.form-title{
+    margin-top: 20px;
+
+}
+.form-p{
+    color: #727272;
+    margin: 10px 0;
+}
+.inp{
+    margin: 5px 0;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+.inp-btn{
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+}
+/*------------------------------ 
+end contact form section style 
+---------------------------------*/
+footer{
+    background-color: rgba(255, 144, 14, 0.1);
+    text-align: center;
+    padding: 20px 0;
+    margin: 50px 100px;
+    color: #727272;
+}
+
+/* -------------------------------
+only design for mobile device 
+---------------------------------*/
+
+@media only screen and (max-width: 600px){
+    .nav-section{
+        flex-direction: column;
+    } 
+    .nav-section ul li{
+        display: block;
+        margin-top: 10px;
+
+    }
+    .head-img{
+        width: 100%;
+        margin: 0;
+        
+
+    }
+    .main-section-description{
+        margin-top: 20px;
+
+    }
+    .sub-main-section{
+        flex-direction: column;
+        
+
+    }
+    .team-img-section{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .main-description-part-2{
+        flex-direction: column;
+
+    }
+    .main-ditelse-part-2{
+        width: 100%;
+    }
+    .box{
+        margin: 0 auto;
+
+    }
+    .all-box{
+        flex-direction: column;
+        
+
+    }
+    .single-box{
+        margin: 10px;
+        border-radius: 5px;
+    }
+    .sponspors-img{
+        flex-direction: column;
+        gap: 30px;
+
+    }
+    .contact{
+      
+        margin: 0 auto;
+
+    }
+    
+}
